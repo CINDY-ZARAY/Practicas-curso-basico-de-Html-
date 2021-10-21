@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(252, 227, 227);
+}
+
+#menu {
+  color: rgb(18, 8, 46);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #000;
+  font-size: 20px;
+}
+
+a {
+  font-size: 18px;
+  color: rgb(10, 0, 1);
+  text-decoration: none;
+}
+
+#usuario form {
+  border: 5px solid rgb(12, 12, 46);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+#usuario form * {
+  display: block;
+}
+
+input[type="text"] {
+  margin: 15px;
+  padding: 10px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background: rgb(64, 91, 243);
+  color: white;
+  padding: 15px;
+  font-size: 17 px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/*=====SELECTOR HIJO===
+====================*/
+
+#menu > li > a {
+  font-size: 18px;
+  color: rgb(64, 91, 243);
+  text-decoration: none;
+}
+
+#saludo h2 {
+  background: rgb(243, 201, 201);
+}

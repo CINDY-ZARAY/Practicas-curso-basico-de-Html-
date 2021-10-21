@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Selectores en CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Selectores básicos en Css</h1>
+
+    <ul id="menu">
+      <li><a href="#">Inicio</a></li>
+      <li>
+        <a href="#">Temario</a>
+
+        <ul>
+          <li>Selector de tipo<a href="#"></a></li>
+          <li>Selector de clase<a href="#"></a></li>
+          <li>Selector de ID<a href="#"></a></li>
+          <li>Selector universal<a href="#"></a></li>
+        </ul>
+      </li>
+      <li><a href="#">Reseña</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+
+    <p>
+      <h2>Los selectores definen sobre qué elementos se aplicará un conjunto de
+      reglas CSS.</h2>
+    </p>
+
+    <div id="descripcion">
+      <h2>Descripcion</h2>
+
+      <p><h2>Selector de tipo</h2>
+        Selecciona todos los elementos que coinciden con el nombre del elemento especificado.
+        Sintaxis: eltname
+        Ejemplo: input se aplicará a cualquier elemento input.
+      </p>
+
+      <p><h2>Selector de clase</h2>
+       Selecciona todos los elementos que tienen el atributo de class especificado.
+       Sintaxis: .classname
+       Ejemplo: .index seleccionará cualquier elemento que tenga la clase "index".
+      </p>
+    
+      <p><h2>Selector de ID</h2>
+       Selecciona un elemento basándose en el valor de su atributo id. Solo puede haber un elemento con un determinado ID dentro de un documento.
+       Sintaxis: #idname
+       Ejemplo: #toc se aplicará a cualquier elemento que tenga el ID "toc".
+      </p>
+
+      <p><h2> Selector universal</h2>
+       Selecciona todos los elementos. Opcionalmente, puede estar restringido a un espacio de nombre específico o a todos los espacios de nombres.
+       Sintaxis: * ns|* *|*
+       Ejemplo: * se aplicará a todos los elementos del documento.
+      </p>
+
+      <p><h2>Selector de atributo</h2>
+        Selecciona elementos basándose en el valor de un determinado atributo.
+        Sintaxis: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]
+        Ejemplo: [autoplay] seleccionará todos los elementos que tengan el atributo "autoplay" establecido (a cualquier valor).
+      </p>
+    </div>
+
+    <div id="usuario">
+      <form>
+        <label>Nombre</label>
+        <input type="text" name="Nombre" />
+        <label>Apellido</label>
+        <input type="text" name="Apellido" /><br />
+        <input type="submit" name="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <div id="saludo">
+      <h2>Hola soy Cindy</h2>
+    </div>
+
+    <footer>
+      <p><h1>Fotter</h1></p>
+    </footer>
+  </body>
+</html>
